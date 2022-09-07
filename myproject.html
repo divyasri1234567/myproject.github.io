@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="myproject.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662197662/coffee-love-logo-design-vector-template_646761-3_kha9qp.webp"
+            class="food-munch-logo"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="navItem1" href="#wcuSection">
+              Why Choose Us?
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#exploremenusection" id="navItem2">Explore Menu</a>
+            <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
+            <a class="nav-link" href="#followUsSection" id="navItem4">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex flex-row justify-content-end ">
+        <div class="d-flex flex-column justify-content-center  mt-5 mr-5 pr-5">
+      <div class="text-center">
+        <h1 class="banner-heading mb-3">Get Delicious Coffee Anytime</h1>
+        <p class="banner-caption mb-4">Drink Smart & Healthy</p>
+        <button class="custom-button"><a  id="navItem5" href="#exploremenusection">View Menu</a></button>
+        <button type="button" class="custom-outline-button" data-toggle="modal" data-target="#exampleModal3">
+          Order Now
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel3">Buy Now</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h2>First Step</h2>
+        
+        <form action="/action_page.php">
+          <label for="fname">Name:</label><br>
+          <input type="text" id="fname" name="fname" value="Enter Your Name"><br>
+          <label for="lname">Address:</label><br>
+          <input type="text" id="lname" name="lname" value="Enter Address"><br><br>
+          <button type="button" class="custom-button">Submit</button>
+        </form> 
+             </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></div>
+    
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="wcu-section-heading">Why Choose Us?</h1>
+            <p class="wcu-section-description">
+              To provide a friendly and comfortable atmosphere where you can receive quality, quantity , service and entertainment at reasonable prices.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662272907/depositphotos_317015744-stock-illustration-coffee-shop-logo-design-with_g6wadz.jpg"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Coffee Service</h1>
+              <p class="wcu-card-description">
+                Experience fine dining at the comfort of your home. All our
+                orders are carefully packed and arranged to give you the nothing
+                less than perfect.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662272627/coffee-beans-logo-design-vector-illustration-vintage-coffee-beans-logo-vector-design-concept-for-cafe-and-restaurant-abstract-coffee-bean-vector-des-2CCGW7K_pvsjpa.jpg"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Fresh Coffee</h1>
+              <p class="wcu-card-description">
+                The Fresh Coffee group provides fresh-cut beans 
+                directly picked from our partner farms and farm houses so that
+                you always get them tree to plate.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662273076/discount-offer-percent-tag-concept-black-icon-vector-26904489_o8tkdg.jpg"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Best Offers</h1>
+              <p class="wcu-card-description">
+                Coffee Coupons & Offers upto
+                <span class="offers">50% OFF</span>
+                and Exclusive Promo Codes on All Online Coffee Orders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="exploremenusection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="menu-section-heading">Explore Menu</h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="shadow menu-item-card p-3 mb-3 ">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662278232/coffee_its_benefits_898_1__xrauzc.jpg"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Cappuccino</h1>
+                <a href="https://en.wikipedia.org/wiki/Cappuccino" class="menu-item-link"  >
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              </div>
+            
+
+           
+
+
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="shadow menu-item-card p-3 mb-3">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662278243/pouring-coffee_qiuoal.webp"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Black Coffee</h1>
+                <a href="https://en.wikipedia.org/wiki/Coffee" class="menu-item-link"  >
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662283274/53842591_l6pmxt.webp"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Cold Coffee</h1>
+                <a href="https://en.wikipedia.org/wiki/Iced_coffee" class="menu-item-link"  >
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662282458/dbbda56ce2d12558c0ea4b981a1db78a_fo2hau.jpg"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Tandoori Coffee</h1>
+                <a href="https://en.wikipedia.org/wiki/Coffee" class="menu-item-link"  >
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662282620/How-Are-Espressos-Good-For-Health_blog-1_a6kfn2.gif"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Espresso Coffee</h1>
+                <a href="https://en.wikipedia.org/wiki/Coffee" class="menu-item-link"  >
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662282831/Americano-Coffee-Lounge-Ingredients_iv8zfn.jpg"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Americano Coffee</h1>
+                <a href="https://en.wikipedia.org/wiki/Coffee" class="menu-item-link"  >
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662283070/Latte_art_3_sk50ds.jpg"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Latte Coffe</h1>
+                <a href="https://en.wikipedia.org/wiki/Coffee" class="menu-item-link"  >
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662283058/6989209-black-coffee-cinnamon_kwrv12.jpg"
+                  class="menu-item-image w-100 hit"
+                />
+                <h1 class="menu-card-title">Herbal Coffee</h1>
+                <a href="https://en.wikipedia.org/wiki/Coffee" class="menu-item-link">
+                  View All
+                  <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="healthy-food-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="text-center">
+              <img
+                src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662355817/depositphotos_13376488-stock-photo-coffee-cup-and-beans_ujqcjd.webp"
+                class="healthy-food-section-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-12">
+            <h1 class="healthy-food-section-heading">
+              Fresh, Healthy, Organic, Delicious Coffee
+            </h1>
+            <p class="healthy-food-section-description">
+              Say no to harmful chemicals and go fully organic with our range of
+              fresh beans. Pamper your body and your senses with
+              the true and unadulterated gifts from mother nature. with the true
+              and unadulterated gifts from mother nature.
+            </p>
+                             <!-- Button trigger modal -->
+<button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal2">
+  Watch Video
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/0SI-oJhIgq4" frameborder="0" allowfullscreen></iframe>
+      </iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+                
+              
+            </div>
+          </div>
+        </div></div>
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 order-1 order-md-2">
+            <div class="text-center">
+              <img
+                src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662450540/97124839-save-25-off-sale-discount-offer-price-sign-special-offer-symbol-speech-bubble-tag-trendy-graphic-des_capvmm.webp"
+                class="delivery-and-payment-section-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-12 order-2 order-md-1">
+            <h1 class="delivery-and-payment-section-heading">
+              Delivery and Payment
+            </h1>
+            <p class="delivery-and-payment-section-description">
+              Enjoy hassle-free payment with the plenitude of payment options
+              available for you. Get live tracking and locate your coffee on a
+              live map. It's quite a sight to see your Coffee arrive to your door.
+              Plus, you get a 5% discount on every order every time you pay
+              online.
+            </p>
+            <!-- Button trigger modal -->
+<button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal1">
+  Order Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Buy Now</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h2>First Step</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" value="Enter Your Name"><br>
+  <label for="lname">Address:</label><br>
+  <input type="text" id="lname" name="lname" value="Enter Address"><br><br>
+  <button type="button" class="custom-button">Submit</button>
+</form> 
+
+
+
+
+
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+                
+                
+          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="thanking-customers-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+            <h1 class="thanking-customers-section-heading">
+              Thank you for being a valuable customer to us.
+            </h1>
+            <p class="thanking-customers-section-description">
+              We have a surprise gift for you
+            </p>
+            <div class="d-md-none">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
+                class="thanking-customers-section-img"
+              />
+            </div>
+            <div>
+              <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                Redeem Gift
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog mt-5">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                        Gift Voucher
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img
+                        src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662370967/voucher_2_4x_x8vict.webp"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 d-none d-md-block">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
+              class="thanking-customers-section-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5 bg-light" id="followUsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">Contact Us</h1>
+          </div>
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container">
+                <i class="fab fa-twitter icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-instagram icon"></i>
+              </div>
+              <div class="follow-us-icon-container">
+                <i class="fab fa-facebook icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-5 pb-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://res.cloudinary.com/dm8k6mrfr/image/upload/v1662197662/coffee-love-logo-design-vector-template_646761-3_kha9qp.webp"
+              class="food-munch-logo"
+            />
+            <h1 class="footer-section-mail-id">coffeelove@coffeemunch.com</h1>
+            <p class="footer-section-address">
+              111 sri Viyan Nagar, New Delhi, India.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
